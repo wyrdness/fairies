@@ -1,10 +1,8 @@
 {
-  "category": "FAE_FOLKLORE",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/fairies",
     "maintainers": [
       {
@@ -18,1108 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "fairies",
-    "name": "Fairies",
-    "aliases": [
-      {
-        "name": "Fae",
-        "language": "Old French",
-        "region": "Western Europe",
-        "meaning": "Fate, destiny; enchanted beings"
-      },
-      {
-        "name": "Sidhe",
-        "language": "Irish Gaelic",
-        "region": "Ireland",
-        "meaning": "People of the mounds; fairy folk"
-      },
-      {
-        "name": "Aos Sí",
-        "language": "Irish Gaelic",
-        "region": "Ireland",
-        "meaning": "People of the mounds; supernatural race"
-      },
-      {
-        "name": "Daoine Sith",
-        "language": "Scottish Gaelic",
-        "region": "Scotland",
-        "meaning": "People of peace; fairies"
-      },
-      {
-        "name": "Fair Folk",
-        "language": "English",
-        "region": "British Isles",
-        "meaning": "Euphemistic term to avoid offense"
-      },
-      {
-        "name": "Good Neighbors",
-        "language": "English",
-        "region": "British Isles",
-        "meaning": "Euphemistic term of respect"
-      },
-      {
-        "name": "Tylwyth Teg",
-        "language": "Welsh",
-        "region": "Wales",
-        "meaning": "Fair family; Welsh fairies"
-      },
-      {
-        "name": "Pixies",
-        "language": "Cornish/Devon dialect",
-        "region": "Cornwall, Devon",
-        "meaning": "Small mischievous fairies"
-      },
-      {
-        "name": "Korrigans",
-        "language": "Breton",
-        "region": "Brittany",
-        "meaning": "Breton fairies; often associated with water"
-      }
-    ],
+    "name": "Fairies / Fae Folk",
+    "aliases": [],
     "category": "FAE_FOLKLORE",
-    "subcategory": "Supernatural Beings / Nature Spirits",
+    "subcategory": "| Description | Status |",
     "tags": [
-      "fae",
       "folklore",
-      "celtic",
-      "supernatural",
-      "nature-spirits",
-      "ireland",
-      "scotland",
-      "wales",
-      "enchantment",
-      "otherworld",
-      "shapeshifter",
-      "immortal"
+      "mythology"
     ],
-    "status": "folklore (cultural tradition)",
+    "status": "documented",
     "description": {
-      "summary": "Supernatural beings from Celtic and European folklore, often small humanoid creatures with magical powers. The Fae Folk inhabit a parallel realm and interact with humans in complex, sometimes dangerous ways.",
-      "full": "Fairies (also known as the Fae or Sidhe) are supernatural beings deeply rooted in Celtic mythology and European folklore. While often depicted in modern culture as tiny, winged, benevolent creatures, traditional fairy lore presents a far more complex and sometimes dangerous picture. The Fae are believed to be a separate race of supernatural beings, possibly remnants of ancient gods or nature spirits, who inhabit the Otherworld—a parallel realm that overlaps with our own. Fairy encounters often involve time distortion, enchantment, abduction, and the exchange of human children for changelings. Traditional Celtic cultures treated the Fae with great respect and caution, using euphemisms like 'Fair Folk' or 'Good Neighbors' to avoid offending them. Fairy belief spans from ancient pre-Christian traditions through medieval folklore to modern encounters and cultural revivals."
+      "summary": "Fairies (also known as the Fae or Sidhe) are supernatural beings deeply rooted in Celtic mythology and European folklore.",
+      "full": "Fairies (also known as the Fae or Sidhe) are supernatural beings deeply rooted in Celtic mythology and European folklore. While often depicted in modern culture as tiny, winged, benevolent creatures, traditional fairy lore presents a far more complex and sometimes dangerous picture. The Fae are believed to be a separate race of supernatural beings—possibly remnants of ancient gods (Tuatha Dé Danann), nature spirits, or ancestral memories—who inhabit the Otherworld, a parallel realm that overlaps with our own. Fairy encounters traditionally involve time distortion, enchantment, abduction, and the exchange of human children for changelings. Traditional Celtic cultures treated the Fae with great respect and caution, using euphemisms like \\\"Fair Folk\\\" or \\\"Good Neighbors\\\" to avoid offending them. Fairy belief spans from ancient pre-Christian traditions through medieval folklore to modern encounters and cultural revivals, remaining a living tradition in Celtic regions today."
     },
     "etymology": {
-      "origin": "From Old French 'faerie' (enchantment, magic), derived from Latin 'fata' (the Fates). Related to 'fay' and 'fey.' Irish 'Sidhe' refers to the ancient burial mounds where fairies were believed to dwell.",
-      "meaning": "Enchanted beings; people of the otherworld; supernatural race",
-      "first_use": "Middle English 'fairie' appears circa 1300s"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "FAE_FOLKLORE",
-      "type": "Supernatural Beings / Nature Spirits",
-      "subtype": "Otherworldly Race",
-      "variant": "Multiple regional and typological variations"
+      "type": "| Description | Status |",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "elves",
-        "name": "Elves",
-        "relationship": "overlapping",
-        "description": "Norse/Germanic equivalent with significant overlap in medieval period"
-      },
-      {
-        "id": "jinn",
-        "name": "Jinn",
-        "relationship": "similar",
-        "description": "Islamic supernatural beings sharing characteristics (invisible realm, shapeshifting, abduction)"
-      },
-      {
-        "id": "nature-spirits",
-        "name": "Nature Spirits",
-        "relationship": "related",
-        "description": "Elementals, dryads, nymphs from various traditions"
-      },
-      {
-        "id": "demons",
-        "name": "Demons",
-        "relationship": "conflated",
-        "description": "Christian demonization of pagan fairy beliefs"
-      }
-    ],
-    "fairy_types": {
-      "description": "Traditional classification of fairy types and subspecies",
-      "types": [
-        {
-          "name": "Tuatha Dé Danann",
-          "region": "Ireland",
-          "description": "Ancient divine race, gods who became fairies; the noble Sidhe",
-          "characteristics": [
-            "Divine origins",
-            "Tall and beautiful",
-            "Powerful magic",
-            "Rulers of fairy realm",
-            "Associated with ancient Irish gods"
-          ]
-        },
-        {
-          "name": "Sidhe / Aos Sí",
-          "region": "Ireland, Scotland",
-          "description": "The aristocratic fairy folk dwelling in mounds",
-          "characteristics": [
-            "Human-sized or larger",
-            "Beautiful and terrible",
-            "Live in síd (fairy mounds)",
-            "Ride in processions",
-            "Can be benevolent or dangerous"
-          ]
-        },
-        {
-          "name": "Pixies",
-          "region": "Cornwall, Devon",
-          "description": "Small, mischievous fairies known for leading travelers astray",
-          "characteristics": [
-            "Small stature",
-            "Mischievous nature",
-            "Cause 'pixy-led' (being lost)",
-            "Dance in rings",
-            "Green clothing"
-          ]
-        },
-        {
-          "name": "Brownies",
-          "region": "Scotland, Northern England",
-          "description": "Household spirits who help with chores if treated well",
-          "characteristics": [
-            "Small and brown",
-            "Nocturnal helpers",
-            "Sensitive to insults",
-            "Work for food offerings",
-            "Leave if given clothing"
-          ]
-        },
-        {
-          "name": "Banshee",
-          "region": "Ireland, Scotland",
-          "description": "Female spirit whose wail foretells death",
-          "characteristics": [
-            "Attached to families",
-            "Wails before death",
-            "Appears as woman combing hair",
-            "Associated with O' and Mac surnames"
-          ]
-        },
-        {
-          "name": "Leprechaun",
-          "region": "Ireland",
-          "description": "Solitary fairy shoemaker guarding pots of gold",
-          "characteristics": [
-            "Small stature",
-            "Shoemaker",
-            "Guards treasure",
-            "Trickster",
-            "Grants wishes if caught"
-          ]
-        },
-        {
-          "name": "Selkies",
-          "region": "Scotland, Ireland, Faroe Islands",
-          "description": "Seal-folk who can shed skin to become human",
-          "characteristics": [
-            "Shapeshifters",
-            "Seals in water",
-            "Humans on land",
-            "Skin must be hidden",
-            "Marriages with humans"
-          ]
-        },
-        {
-          "name": "Changelings",
-          "region": "Widespread Celtic",
-          "description": "Fairy children left in place of stolen human babies",
-          "characteristics": [
-            "Substituted for human infants",
-            "Sickly or deformed",
-            "Abnormal behavior",
-            "Tests to identify",
-            "Dangerous to harm"
-          ]
-        },
-        {
-          "name": "Dullahan",
-          "region": "Ireland",
-          "description": "Headless rider heralding death",
-          "characteristics": [
-            "Headless",
-            "Carries own head",
-            "Black horse",
-            "Death omen",
-            "Cannot be stopped by barriers"
-          ]
-        },
-        {
-          "name": "Phouka/Púca",
-          "region": "Ireland",
-          "description": "Shapeshifting trickster, often a black horse",
-          "characteristics": [
-            "Shapeshifter",
-            "Usually black animals",
-            "Mischievous or malevolent",
-            "Gives wild rides",
-            "November 1st is their night"
-          ]
-        }
-      ]
-    }
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "size_range": "Varies by type: from tiny (3 inches) to human-sized or larger",
-      "coloration": [
-        "Often pale or luminous",
-        "Green clothing (traditional)",
-        "Red caps (some types)",
-        "Silver or golden hair (Sidhe)"
-      ],
-      "features": [
-        {
-          "feature": "Size",
-          "description": "Ranges from tiny winged sprites to tall, majestic Sidhe",
-          "frequency": "varies"
-        },
-        {
-          "feature": "Beauty/Ugliness",
-          "description": "Can appear beautiful or hideous; may be glamoured",
-          "frequency": "common"
-        },
-        {
-          "feature": "Wings",
-          "description": "Modern depiction; not traditional in Celtic lore",
-          "frequency": "modern"
-        },
-        {
-          "feature": "Pointed ears",
-          "description": "Sometimes described; became standard in modern fantasy",
-          "frequency": "occasional"
-        },
-        {
-          "feature": "Luminosity",
-          "description": "Glow or emit light, especially at night",
-          "frequency": "common"
-        },
-        {
-          "feature": "Agelessness",
-          "description": "Appear eternally young or anciently old",
-          "frequency": "always"
-        }
-      ],
-      "morphology": "Fairies appear in many forms, from human-like beings to animal shapes to incorporeal lights. Traditional descriptions emphasize beauty, strangeness, and otherworldliness rather than the diminutive winged form of Victorian art."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Glamour",
-        "description": "Magical illusion to appear beautiful or disguise true form",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Shapeshifting",
-        "description": "Transform into animals, objects, or other forms",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Time distortion",
-        "description": "Time passes differently in fairy realm; hours may be years",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Enchantment",
-        "description": "Cast spells, charm humans, cause sleep or forgetfulness",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Invisibility",
-        "description": "Become invisible to human eyes at will",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Music and dance",
-        "description": "Irresistible supernatural music and dancing",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Abduction",
-        "description": "Take humans to fairy realm, especially children and young women",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Blessings and curses",
-        "description": "Bestow good fortune or misfortune on humans",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Prophecy",
-        "description": "Know the future, especially deaths (banshees)",
-        "frequency": "occasional",
-        "evidence_level": "folklore"
-      }
-    ],
-    "weaknesses": [
-      {
-        "weakness": "Iron",
-        "description": "Iron repels, burns, or imprisons fairies; most famous weakness",
-        "tradition": "Widespread Celtic"
-      },
-      {
-        "weakness": "Running water",
-        "description": "Cannot cross running streams",
-        "tradition": "British Isles"
-      },
-      {
-        "weakness": "Salt",
-        "description": "Protective against fairy magic",
-        "tradition": "Various"
-      },
-      {
-        "weakness": "Bells",
-        "description": "Church bells drive away fairies",
-        "tradition": "Christian-era"
-      },
-      {
-        "weakness": "Bread",
-        "description": "Bread (especially blessed) offers protection",
-        "tradition": "Christian-era"
-      },
-      {
-        "weakness": "Rowan",
-        "description": "Rowan wood and berries ward off fairies",
-        "tradition": "Celtic"
-      },
-      {
-        "weakness": "Daisy chains",
-        "description": "Protect children from abduction",
-        "tradition": "British"
-      },
-      {
-        "weakness": "True names",
-        "description": "Knowing a fairy's true name gives power over them",
-        "tradition": "Various"
-      },
-      {
-        "weakness": "Religious symbols",
-        "description": "Crosses, holy water may repel them",
-        "tradition": "Christian-era"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "twilight/nocturnal (liminal times)",
-      "disposition": "variable (amoral, unpredictable)",
-      "social_structure": "hierarchical courts with kings and queens",
-      "habitat_preference": [
-        "fairy mounds (síd)",
-        "hollow hills",
-        "forests and groves",
-        "water sources",
-        "liminal spaces"
-      ],
-      "patterns": [
-        "Active at twilight and liminal times",
-        "Ride in processions on certain nights",
-        "Hold courts and revels",
-        "Make bargains with humans",
-        "Demand respect and offerings",
-        "Punish disrespect severely",
-        "Sometimes aid humans",
-        "Abduct humans, especially children and nursing mothers"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Fairy beliefs are found worldwide, but the specific Fae Folk tradition is most strongly associated with Celtic lands—Ireland, Scotland, Wales, Cornwall, Brittany, and the Isle of Man. Similar beings exist in most cultures under different names.",
-      "continents": [
-        "Europe (primary)",
-        "Americas (transplanted traditions)",
-        "Global (similar entities)"
-      ],
-      "countries": [
-        "Ireland",
-        "Scotland",
-        "Wales",
-        "England",
-        "France (Brittany)",
-        "Isle of Man",
-        "Cornwall"
-      ],
-      "regions": [
-        "Celtic lands (primary)",
-        "British Isles",
-        "Brittany",
-        "Irish diaspora regions"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "hotspots": [
-      {
-        "name": "Newgrange and Brú na Bóinne",
-        "location": {
-          "description": "Ancient passage tombs, home of the Tuatha Dé Danann",
-          "country": "Ireland",
-          "region": "County Meath",
-          "coordinates": {
-            "latitude": 53.6947,
-            "longitude": -6.4753
-          }
-        },
-        "sighting_count": 0,
-        "peak_period": "Ancient-Present",
-        "notes": "Sacred site associated with Sidhe; dwelling of Aengus Óg"
-      },
-      {
-        "name": "Hill of Tara",
-        "location": {
-          "description": "Ancient seat of High Kings, fairy fort",
-          "country": "Ireland",
-          "region": "County Meath",
-          "coordinates": {
-            "latitude": 53.5789,
-            "longitude": -6.6117
-          }
-        },
-        "sighting_count": 0,
-        "peak_period": "Ancient-Present",
-        "notes": "Royal site with strong fairy associations"
-      },
-      {
-        "name": "Glastonbury Tor",
-        "location": {
-          "description": "Hill associated with Avalon and fairy realm",
-          "country": "England",
-          "region": "Somerset",
-          "coordinates": {
-            "latitude": 51.1442,
-            "longitude": -2.6986
-          }
-        },
-        "sighting_count": 0,
-        "peak_period": "Medieval-Present",
-        "notes": "Legendary entrance to fairy realm"
-      },
-      {
-        "name": "Brocéliande Forest",
-        "location": {
-          "description": "Legendary forest of Arthurian tales and korrigans",
-          "country": "France",
-          "region": "Brittany",
-          "coordinates": {
-            "latitude": 48.0333,
-            "longitude": -2.1667
-          }
-        },
-        "sighting_count": 0,
-        "peak_period": "Medieval-Present",
-        "notes": "Home to Breton fairy traditions"
-      }
-    ],
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Ancient",
+        "date": "Unknown",
         "circa": true,
-        "source": "Pre-Christian Celtic mythology; earliest written records from medieval Irish texts"
-      },
-      "peak_activity_periods": [
-        {
-          "period": "Pre-Christian era",
-          "description": "Original Celtic deity and spirit beliefs"
-        },
-        {
-          "period": "Medieval period",
-          "description": "Christianized fairy lore; literary codification"
-        },
-        {
-          "period": "16th-17th centuries",
-          "description": "Witch trial era; fairy beliefs persecuted"
-        },
-        {
-          "period": "19th century",
-          "description": "Romantic revival; Victorian fairy art and literature"
-        },
-        {
-          "period": "20th-21st centuries",
-          "description": "Modern Celtic revival; Neo-pagan movements"
-        }
-      ],
-      "seasonal_patterns": "Fairy activity peaks at liminal times: dusk, dawn, solstices, equinoxes. Samhain (Halloween) and Beltane (May Day) are especially significant."
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Fairy belief has roots in pre-Christian Celtic religion, possibly representing memories of ancient gods (Tuatha Dé Danann), ancestors, or nature spirits. Some theories suggest folk memories of indigenous pre-Celtic peoples.",
-      "earliest_accounts": "Irish mythological cycles (Ulster Cycle, Fenian Cycle) from oral tradition transcribed by medieval monks. Welsh Mabinogion. Pre-Christian roots with medieval Christian overlay.",
-      "folklore_connections": "Connected to Indo-European divine beings, ancestral spirits, nature worship, and animistic beliefs. Shares characteristics with Norse elves, Germanic dwarves, and Slavic nature spirits."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "Pre-Christian",
-        "event": "Tuatha Dé Danann in Irish mythology",
-        "significance": "Divine race later identified with fairies; represent Celtic gods",
-        "source": "Lebor Gabála Érenn (Book of Invasions)"
-      },
-      {
-        "date": "500-1000 CE",
-        "event": "Christianization of Celtic lands",
-        "significance": "Pagan gods demoted to fairies; synthesis of beliefs",
-        "source": "Medieval Irish manuscripts"
-      },
-      {
-        "date": "12th century",
-        "event": "Medieval literary codification",
-        "significance": "Fairy lore recorded in literature; Arthurian romance",
-        "source": "Geoffrey of Monmouth, Chrétien de Troyes"
-      },
-      {
-        "date": "1600-1700",
-        "event": "Fairy trial era",
-        "significance": "Claiming fairy contact could lead to execution for witchcraft",
-        "source": "Scottish witch trial records"
-      },
-      {
-        "date": "1690",
-        "event": "Rev. Robert Kirk's 'The Secret Commonwealth'",
-        "significance": "Detailed account of Scottish fairy beliefs; Kirk allegedly taken by fairies",
-        "source": "Manuscript published 1815"
-      },
-      {
-        "date": "1798",
-        "event": "Bridget Cleary case",
-        "significance": "Irish woman killed by husband who believed her a changeling",
-        "source": "Irish court records"
-      },
-      {
-        "date": "1800s",
-        "event": "Victorian fairy art movement",
-        "significance": "Fairies reimagined as tiny winged beings; sanitized for children",
-        "source": "Art of Richard Dadd, John Anster Fitzgerald"
-      },
-      {
-        "date": "1917",
-        "event": "Cottingley Fairies photographs",
-        "significance": "Famous hoax photos of fairies; fooled Conan Doyle",
-        "source": "Photographs later admitted as fake"
-      },
-      {
-        "date": "1960s-present",
-        "event": "Celtic revival and Neo-paganism",
-        "significance": "Renewed interest in authentic Celtic fairy traditions",
-        "source": "Modern Pagan movements"
-      }
-    ],
-    "modern_era": "Contemporary fairy belief exists in several forms: cultural tradition in Celtic countries, Neo-pagan religious practice, folklore studies, and modern 'fairy sighting' reports. Ireland still has active fairy belief affecting land use decisions. Modern fantasy literature has created its own fairy tradition distinct from folklore."
+    "timeline": []
   },
-
   "sightings": {
     "statistics": {
-      "total_documented": 1000,
+      "total_documented": 0,
       "verified": 0,
-      "disputed": 800,
-      "debunked": 200,
-      "date_range": {
-        "earliest": "Ancient",
-        "latest": "2020s"
-      }
+      "disputed": 0,
+      "debunked": 0
     },
-    "notable": [
-      {
-        "id": "fairy-encounter-kirk",
-        "name": "Rev. Robert Kirk Disappearance",
-        "date": {
-          "value": "1692",
-          "precision": "year"
-        },
-        "location": {
-          "description": "Fairy Hill (Doon Hill), Aberfoyle",
-          "country": "Scotland",
-          "region": "Stirlingshire"
-        },
-        "witnesses": {
-          "count": 1,
-          "types": ["Minister", "Scholar"],
-          "credibility_factors": ["Educated clergyman", "Published fairy scholar", "Mysterious death"]
-        },
-        "description": "Rev. Robert Kirk, Episcopal minister and Gaelic scholar who wrote 'The Secret Commonwealth' about Scottish fairy beliefs, collapsed on Fairy Hill and died (or fell into coma). Local tradition holds he was taken by the fairies for revealing their secrets. He allegedly appeared to a relative after death, claiming to be held by the Fae.",
-        "conditions": {
-          "weather": "Unknown",
-          "visibility": "Unknown",
-          "time_of_day": "Unknown",
-          "duration": "Permanent disappearance/death"
-        },
-        "evidence": [
-          "Kirk's published manuscript on fairies",
-          "Death on site associated with fairies",
-          "Subsequent apparition reports",
-          "Strong local tradition"
-        ],
-        "credibility": {
-          "rating": "historical",
-          "factors": [
-            "Real historical figure",
-            "Death confirmed",
-            "Circumstances suspicious",
-            "Fairy connection added posthumously"
-          ],
-          "notes": "Real person whose death spawned fairy legend. Whether natural death or something else remains unknown."
-        },
-        "sources": [
-          "Kirk, R. (1691). The Secret Commonwealth of Elves, Fauns and Fairies",
-          "Stewart, W.G. (1823). The Popular Superstitions of the Highlands"
-        ],
-        "featured": true
-      },
-      {
-        "id": "fairy-encounter-cleary",
-        "name": "Bridget Cleary Changeling Case",
-        "date": {
-          "value": "1895-03-15",
-          "precision": "exact"
-        },
-        "location": {
-          "description": "Ballyvadlea, County Tipperary",
-          "country": "Ireland",
-          "region": "Munster"
-        },
-        "witnesses": {
-          "count": 10,
-          "types": ["Husband", "Family members", "Neighbors"],
-          "credibility_factors": ["Multiple witnesses", "Court documentation", "Tragic outcome"]
-        },
-        "description": "26-year-old Bridget Cleary fell ill. Her husband Michael and relatives became convinced she was a changeling and the real Bridget was held by fairies. They subjected her to 'fairy tests' including holding her over a fire to force the fairy to flee. Bridget died from burns and beatings. Michael and others were tried for manslaughter. The case became a scandal demonstrating persistence of fairy belief.",
-        "conditions": {
-          "weather": "Unknown",
-          "visibility": "Interior",
-          "time_of_day": "Evening",
-          "duration": "Several days"
-        },
-        "evidence": [
-          "Court trial records",
-          "Newspaper coverage",
-          "Medical examination",
-          "Witness testimony"
-        ],
-        "credibility": {
-          "rating": "documented",
-          "factors": [
-            "Fully documented legal case",
-            "Multiple witnesses",
-            "Tragic real outcome",
-            "No actual changeling"
-          ],
-          "notes": "Real case demonstrating belief in changelings persisted into late 19th century Ireland. Bridget was human; belief killed her."
-        },
-        "sources": [
-          "Bourke, A. (1999). The Burning of Bridget Cleary",
-          "Irish court records, 1895"
-        ],
-        "featured": true
-      },
-      {
-        "id": "fairy-encounter-cottingley",
-        "name": "Cottingley Fairies Photographs",
-        "date": {
-          "value": "1917",
-          "precision": "year"
-        },
-        "location": {
-          "description": "Cottingley, near Bradford",
-          "country": "England",
-          "region": "Yorkshire"
-        },
-        "witnesses": {
-          "count": 2,
-          "types": ["Children - Elsie Wright and Frances Griffiths"],
-          "credibility_factors": ["Photographs produced", "Sir Arthur Conan Doyle believed", "Later admitted hoax"]
-        },
-        "description": "Two young cousins, Elsie Wright (16) and Frances Griffiths (9), produced photographs appearing to show them with fairies. The images caused sensation when championed by Arthur Conan Doyle. In 1983, the women admitted the photos were faked using cardboard cutouts, though Frances maintained she really saw fairies.",
-        "conditions": {
-          "weather": "Clear",
-          "visibility": "Daylight",
-          "time_of_day": "Afternoon",
-          "duration": "Photograph sessions over months"
-        },
-        "evidence": [
-          "Five photographs",
-          "Expert analysis (fooled many)",
-          "Later confession",
-          "Original cutout drawings found"
-        ],
-        "credibility": {
-          "rating": "debunked",
-          "factors": [
-            "Admitted hoax in 1983",
-            "Cardboard cutouts identified",
-            "Fooled experts at the time",
-            "Cultural phenomenon despite hoax"
-          ],
-          "notes": "Famous hoax that fooled Conan Doyle and others. Significant for showing desire to believe in fairies persisted into modern era."
-        },
-        "sources": [
-          "Cooper, J. (1997). The Case of the Cottingley Fairies",
-          "Original photographs"
-        ],
-        "featured": true
-      }
-    ],
+    "notable": [],
     "database_path": "./sightings/"
   },
-
   "evidence": {
-    "physical": [
-      {
-        "id": "fairy-evidence-rings",
-        "type": "environmental feature",
-        "name": "Fairy Rings",
-        "description": "Circles of mushrooms or bare earth attributed to fairy dancing",
-        "status": "explained",
-        "analysis": "Natural phenomenon caused by fungal growth patterns; folklore attributed to fairies"
-      },
-      {
-        "id": "fairy-evidence-forts",
-        "type": "archaeological sites",
-        "name": "Fairy Forts (Raths)",
-        "description": "Ancient earthwork structures protected by fairy taboos",
-        "status": "historical",
-        "analysis": "Real prehistoric structures (Bronze/Iron Age); associated with fairies in folklore"
-      }
-    ],
-    "photographic": [
-      {
-        "id": "fairy-evidence-cottingley",
-        "type": "photographs",
-        "name": "Cottingley Fairies",
-        "date": "1917",
-        "description": "Five photographs of girls with apparent fairies",
-        "status": "debunked",
-        "analysis": "Admitted hoax using cardboard cutouts; significant cultural phenomenon",
-        "source": "Elsie Wright and Frances Griffiths"
-      }
-    ],
-    "documentary": [
-      {
-        "id": "fairy-evidence-kirk",
-        "type": "treatise",
-        "name": "The Secret Commonwealth",
-        "description": "Rev. Robert Kirk's 1691 account of Scottish fairy beliefs",
-        "status": "historical record",
-        "analysis": "Important primary source on 17th century fairy beliefs"
-      },
-      {
-        "id": "fairy-evidence-trials",
-        "type": "court records",
-        "name": "Witch trial fairy testimonies",
-        "description": "Accounts of people claiming fairy contact during witch trials",
-        "status": "historical record",
-        "analysis": "Documents genuine belief in fairies; people executed for claiming fairy connections"
-      }
-    ],
-    "folklore": [
-      {
-        "id": "fairy-evidence-mythology",
-        "type": "mythological texts",
-        "name": "Irish Mythological Cycles",
-        "description": "Medieval manuscripts recording Celtic fairy mythology",
-        "status": "cultural record",
-        "analysis": "Lebor Gabála Érenn, Táin Bó Cúailnge, and other texts preserve ancient traditions"
-      }
-    ]
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
   },
-
   "theories": {
-    "paranormal": [
-      {
-        "name": "Otherworldly Beings",
-        "description": "Fairies are real supernatural entities from a parallel dimension or spiritual realm",
-        "proponents": ["Traditional believers", "Some Neo-pagans"],
-        "evidence_cited": [
-          "Consistent cross-cultural accounts",
-          "Time distortion reports",
-          "Unexplained phenomena at fairy sites"
-        ]
-      },
-      {
-        "name": "Interdimensional Entities",
-        "description": "Fairies are beings from parallel dimensions that occasionally intersect with ours",
-        "proponents": ["Jacques Vallée", "Some paranormal researchers"],
-        "evidence_cited": [
-          "Similarities to UFO encounters",
-          "Time distortion",
-          "Abduction accounts"
-        ]
-      }
-    ],
-    "mythological": [
-      {
-        "name": "Fallen Gods",
-        "description": "Fairies are diminished pagan deities after Christianization",
-        "proponents": ["Folklore scholars", "W.B. Yeats"],
-        "evidence_cited": [
-          "Tuatha Dé Danann identified as gods then fairies",
-          "Timing matches Christianization",
-          "Reduced power and status"
-        ]
-      },
-      {
-        "name": "Nature Spirits",
-        "description": "Personifications of natural forces and locations",
-        "proponents": ["Anthropologists", "Joseph Campbell"],
-        "evidence_cited": [
-          "Association with specific natural features",
-          "Animistic worldview",
-          "Similar beings in pre-Christian cultures"
-        ]
-      }
-    ],
-    "anthropological": [
-      {
-        "name": "Folk Memory of Indigenous People",
-        "description": "Fairies represent folk memories of pre-Celtic indigenous peoples",
-        "proponents": ["David MacRitchie", "Some historians"],
-        "evidence_cited": [
-          "Small stature descriptions",
-          "Underground dwelling",
-          "Advanced skills (metallurgy)",
-          "Living in mounds"
-        ]
-      },
-      {
-        "name": "Ancestral Spirits",
-        "description": "Fairies represent spirits of the dead dwelling in burial mounds",
-        "proponents": ["Folklore scholars"],
-        "evidence_cited": [
-          "Association with burial mounds (síd)",
-          "Samhain (Day of Dead) connection",
-          "Return of dead at liminal times"
-        ]
-      }
-    ],
-    "psychological": [
-      {
-        "name": "Cultural Construct",
-        "description": "Fairies are imaginative explanations for natural phenomena and social functions",
-        "proponents": ["Rationalist scholars"],
-        "evidence_cited": [
-          "Explain illnesses and misfortunes",
-          "Reinforce social norms",
-          "Entertainment and storytelling"
-        ]
-      },
-      {
-        "name": "Archetypal Symbols",
-        "description": "Fairies represent psychological archetypes and unconscious content",
-        "proponents": ["Jungian analysts"],
-        "evidence_cited": [
-          "Universal trickster motifs",
-          "Shadow aspects",
-          "Anima/animus projections"
-        ]
-      }
-    ],
-    "medical": [
-      {
-        "name": "Medical Conditions Explained",
-        "description": "Changeling beliefs explained conditions like autism, genetic disorders",
-        "proponents": ["Medical historians"],
-        "evidence_cited": [
-          "Changeling descriptions match developmental disorders",
-          "Sudden illness attributed to fairy interference",
-          "Sleep paralysis as fairy encounter"
-        ]
-      }
-    ]
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
   },
-
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Irish Aos Sí traditions",
-        "Scottish Daoine Sìth lore",
-        "Welsh Tylwyth Teg stories",
-        "Cornish Pixie legends",
-        "Breton Korrigan tales",
-        "Manx Fairy traditions"
-      ],
-      "stories": [
-        "The Stolen Child",
-        "Tam Lin",
-        "Thomas the Rhymer",
-        "The King of Elfland's Daughter",
-        "Fairy Bride tales",
-        "Rip Van Winkle (American adaptation)"
-      ],
-      "beliefs": [
-        "Never say 'thank you' to fairies",
-        "Use euphemisms like 'Fair Folk'",
-        "Leave offerings of milk and bread",
-        "Don't disturb fairy forts",
-        "Wear clothing inside out if pixie-led",
-        "Carry iron for protection",
-        "Avoid fairy rings",
-        "Don't eat fairy food",
-        "Never give your true name"
-      ]
-    },
-    "indigenous": {
-      "cultures": [
-        "Irish",
-        "Scottish Gaels",
-        "Welsh",
-        "Cornish",
-        "Bretons",
-        "Manx"
-      ],
-      "significance": "Fairies are integral to Celtic cultural identity, representing connection to land, ancestors, and pre-Christian spirituality. Fairy belief influences land use, place names, and cultural practices in Celtic regions.",
-      "sensitivity_note": "Fairy traditions are living cultural heritage for Celtic peoples. While folklore is shared, spiritual practices (especially Neo-pagan) should be approached with respect for practitioners.",
-      "respect_guidelines": [
-        "Consult local communities before disturbing fairy sites",
-        "Respect protected fairy forts in Ireland (legally protected)",
-        "Don't mock or trivialize genuine belief",
-        "Distinguish folklore from modern fantasy",
-        "Acknowledge living tradition vs. dead mythology",
-        "Credit Celtic sources appropriately"
-      ]
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "A Midsummer Night's Dream (Shakespeare, 1595)",
-        "Irish Fairy Tales (W.B. Yeats, 1892)",
-        "Peter Pan (J.M. Barrie, 1904)",
-        "The King of Elfland's Daughter (Lord Dunsany, 1924)",
-        "Jonathan Strange & Mr Norrell (Susanna Clarke, 2004)",
-        "The Cruel Prince series (Holly Black)"
-      ],
-      "film_tv": [
-        "Darby O'Gill and the Little People (1959)",
-        "Legend (1985)",
-        "FernGully (1992)",
-        "Hellboy II: The Golden Army (2008)",
-        "Maleficent (2014)",
-        "Carnival Row (TV series, 2019-2023)"
-      ],
-      "games": [
-        "The Legend of Zelda series (fairy characters)",
-        "World of Warcraft (Night Elves)",
-        "Changeling: The Dreaming (RPG)"
-      ],
-      "other": [
-        "Fairy tourism in Ireland and Scotland",
-        "Fairy gardens and houses",
-        "Neo-pagan practice and worship",
-        "Fantasy conventions",
-        "Fairy-themed merchandise industry"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
   "research": {
-    "researchers": [
-      {
-        "name": "Rev. Robert Kirk",
-        "affiliation": "Episcopal Minister",
-        "contribution": "The Secret Commonwealth (1691) - earliest systematic account of Scottish fairy beliefs",
-        "period": "17th century"
-      },
-      {
-        "name": "W.B. Yeats",
-        "affiliation": "Poet and folklorist",
-        "contribution": "Collected and published Irish fairy folklore; Celtic Twilight movement",
-        "period": "Late 19th-early 20th century"
-      },
-      {
-        "name": "Lady Augusta Gregory",
-        "affiliation": "Folklorist",
-        "contribution": "Visions and Beliefs in the West of Ireland; collected oral traditions",
-        "period": "Early 20th century"
-      },
-      {
-        "name": "Katharine Briggs",
-        "affiliation": "Folklore scholar",
-        "contribution": "Encyclopedia of Fairies; comprehensive academic study",
-        "period": "20th century"
-      },
-      {
-        "name": "Jacques Vallée",
-        "affiliation": "Computer scientist and UFO researcher",
-        "contribution": "Passport to Magonia - compared fairy lore to UFO phenomena",
-        "period": "20th-21st century"
-      },
-      {
-        "name": "Angela Bourke",
-        "affiliation": "Professor of Irish",
-        "contribution": "The Burning of Bridget Cleary - academic analysis of changeling belief",
-        "period": "Contemporary"
-      }
-    ],
-    "organizations": [
-      {
-        "name": "The Folklore Society",
-        "url": "https://www.folklore-society.com",
-        "focus": "Academic study of folklore including fairy traditions"
-      },
-      {
-        "name": "Irish Folklore Commission / An Coimisiún Béaloideasa Éireann",
-        "focus": "Preservation and study of Irish folklore"
-      },
-      {
-        "name": "School of Scottish Studies",
-        "url": "https://www.ed.ac.uk/literatures-languages-cultures/celtic-scottish-studies",
-        "focus": "Celtic and Scottish folklore research"
-      }
-    ],
-    "ongoing_studies": "Contemporary research focuses on fairy belief as living tradition, cultural heritage preservation, psychological and sociological aspects of belief, and historical analysis of fairy-witch trial connections. Modern Ireland still reports protection of fairy forts affecting development projects."
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "briggs-1976",
-      "type": "book",
-      "title": "An Encyclopedia of Fairies",
-      "authors": ["Katharine Briggs"],
-      "publication": "Pantheon Books",
-      "date": "1976",
-      "isbn": "978-0394409184"
-    },
-    {
-      "id": "yeats-1888",
-      "type": "book",
-      "title": "Fairy and Folk Tales of the Irish Peasantry",
-      "authors": ["W.B. Yeats"],
-      "publication": "Walter Scott",
-      "date": "1888"
-    },
-    {
-      "id": "kirk-1691",
-      "type": "book",
-      "title": "The Secret Commonwealth of Elves, Fauns and Fairies",
-      "authors": ["Robert Kirk"],
-      "publication": "Manuscript 1691; published 1815",
-      "date": "1691"
-    },
-    {
-      "id": "bourke-1999",
-      "type": "book",
-      "title": "The Burning of Bridget Cleary",
-      "authors": ["Angela Bourke"],
-      "publication": "Penguin",
-      "date": "1999",
-      "isbn": "978-0140296136"
-    },
-    {
-      "id": "vallee-1969",
-      "type": "book",
-      "title": "Passport to Magonia: On UFOs, Folklore, and Parallel Worlds",
-      "authors": ["Jacques Vallée"],
-      "publication": "Contemporary Books",
-      "date": "1969",
-      "isbn": "978-0809237920"
-    }
-  ]
+  "sources": []
 }
