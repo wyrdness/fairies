@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/fairies",
     "maintainers": [
       {
@@ -16,111 +16,381 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "fairies",
     "name": "Fairies / Fae Folk",
-    "aliases": [],
+    "aliases": [
+      { "name": "Aos Sí", "language": "Irish", "region": "Ireland", "meaning": "folk of the fairy mounds" },
+      { "name": "Daoine Sídhe", "language": "Irish", "region": "Ireland" },
+      { "name": "Daoine Sìth", "language": "Scottish Gaelic", "region": "Scotland" },
+      { "name": "Tylwyth Teg", "language": "Welsh", "region": "Wales", "meaning": "the fair family" },
+      { "name": "The Good Neighbours", "language": "English", "region": "British Isles", "meaning": "euphemism to avoid offending the Fae" },
+      { "name": "The Fair Folk", "language": "English", "region": "British Isles", "meaning": "euphemism" },
+      { "name": "The Wee Folk", "region": "Scotland and Ireland" },
+      { "name": "People of Peace", "region": "Scotland" },
+      { "name": "Seelie Court", "language": "Scots", "region": "Scotland", "meaning": "benevolent fairies" },
+      { "name": "Unseelie Court", "language": "Scots", "region": "Scotland", "meaning": "malicious fairies" },
+      { "name": "Sídhe", "language": "Irish", "region": "Ireland", "meaning": "fairy mound" }
+    ],
     "category": "FAE_FOLKLORE",
-    "subcategory": "| Description | Status |",
+    "subcategory": "Fairy / Fae folk",
     "tags": [
       "folklore",
-      "mythology"
+      "fae",
+      "celtic",
+      "european",
+      "otherworld",
+      "changeling",
+      "fairy-mound",
+      "shapeshifting",
+      "supernatural"
     ],
     "status": "documented",
     "description": {
-      "summary": "Fairies (also known as the Fae or Sidhe) are supernatural beings deeply rooted in Celtic mythology and European folklore.",
-      "full": "Fairies (also known as the Fae or Sidhe) are supernatural beings deeply rooted in Celtic mythology and European folklore. While often depicted in modern culture as tiny, winged, benevolent creatures, traditional fairy lore presents a far more complex and sometimes dangerous picture. The Fae are believed to be a separate race of supernatural beings—possibly remnants of ancient gods (Tuatha Dé Danann), nature spirits, or ancestral memories—who inhabit the Otherworld, a parallel realm that overlaps with our own. Fairy encounters traditionally involve time distortion, enchantment, abduction, and the exchange of human children for changelings. Traditional Celtic cultures treated the Fae with great respect and caution, using euphemisms like \\\"Fair Folk\\\" or \\\"Good Neighbors\\\" to avoid offending them. Fairy belief spans from ancient pre-Christian traditions through medieval folklore to modern encounters and cultural revivals, remaining a living tradition in Celtic regions today."
+      "summary": "Fairies are a class of supernatural beings in European folklore, particularly Celtic, Germanic and English traditions, dwelling in an Otherworld that overlaps with our own and capable of magic, abduction, and exchange of changelings.",
+      "full": "Fairies (also Fae, Fair Folk, Aos Sí, Sidhe, Tylwyth Teg) are a broad class of supernatural beings central to European, especially Celtic and British, folklore. Tradition imagines them as a separate race occupying an Otherworld that interpenetrates our own through fairy mounds (sídhe), wells, and liminal places. The folkloric Fae are not the diminutive winged figures of Victorian art but powerful, ambivalent beings: capable of beauty and benevolence, but also of abduction, theft, and the substitution of human infants with changelings. Folk explanations of their origin range from demoted angels and the fallen Tuatha Dé Danann to spirits of the dead, hidden races, and elementals. Belief in fairies was widespread in Britain and Ireland into the modern period, sustained by texts including Robert Kirk's 1691 manuscript The Secret Commonwealth of Elves, Fauns and Fairies and a continuous oral tradition. The phenomenon experienced a literary efflorescence in the Renaissance (Spenser, Shakespeare) and a Victorian sentimentalisation (J. M. Barrie, the Cottingley Fairies hoax of 1917) before being recovered in serious folkloristic and Celtic-revival scholarship in the 20th century."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "The English 'fairy' derives from Old French faerie ('enchantment, the realm of the fays'), from Latin fata ('the Fates'). The Old French was originally a collective noun reinterpreted as a singular from the 14th century. Celtic-language terms (sídhe, daoine sí, tylwyth teg) are independent and older.",
+      "meaning": "'Fairy' originally denoted both the enchanted state and the inhabitants of the realm of the fays. 'Sídhe' literally names a fairy mound and by extension its inhabitants. Anglicised 'Sidhe' or 'Shee' are common in 19th- and 20th-century Irish writing.",
+      "first_use": "c. 14th century (English 'fairy'); much earlier in Old Irish (síd) and Welsh (tylwyth teg)."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "FAE_FOLKLORE",
-      "type": "| Description | Status |",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Supernatural beings",
+      "subtype": "Fae / hidden people",
+      "variant": "Pan-European, with strong Celtic and British concentrations"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "changeling", "name": "Changeling", "relationship": "subset", "description": "Fae infant substituted for a stolen human child" },
+      { "id": "banshee", "name": "Banshee", "relationship": "related", "description": "Bean sí ('woman of the fairy mound'), a death-announcing fairy of Irish tradition" },
+      { "id": "leprechaun", "name": "Leprechaun", "relationship": "subset", "description": "Solitary fairy of Irish folklore" },
+      { "id": "brownie", "name": "Brownie", "relationship": "subset", "description": "Household fairy of Scottish and English tradition" },
+      { "id": "huldufolk", "name": "Huldufólk", "relationship": "regional_variant", "description": "Icelandic 'hidden people' parallel to British fae" },
+      { "id": "elves", "name": "Elves", "relationship": "similar", "description": "Germanic and Norse supernatural beings often conflated with fairies" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["pale", "fair-skinned", "green-clad", "white-clad"],
+      "features": [
+        { "feature": "Human-like appearance", "description": "Most folkloric fairies are described as human in shape and proportion, often beautiful, sometimes with green eyes or a slight 'glamour' that distinguishes them", "frequency": "common" },
+        { "feature": "Variable size", "description": "Sizes range from very small to fully human; the diminutive flower-fairy is largely a Victorian-era literary development", "frequency": "occasional" },
+        { "feature": "Wings", "description": "Wings are rare in older folklore and primarily a feature of Victorian artwork (e.g. Richard Doyle, Arthur Rackham)", "frequency": "rare" },
+        { "feature": "Beautiful or uncanny features", "description": "Often described as preternaturally beautiful, sometimes betrayed by a small physical anomaly such as cloven feet, hollow backs, or reversed feet", "frequency": "occasional" }
+      ],
+      "morphology": "Folkloric fairies are typically anthropomorphic and pass for human at a distance. The Victorian 'tiny winged fairy' is a literary and artistic convention; older British and Irish fairies are usually full-sized, glamour-cloaked beings of the Otherworld."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Glamour / illusion", "description": "Power to alter the perception of mortals, making fairy gold, food, or palaces seem real", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Time distortion", "description": "Time in the fairy realm runs differently; classic tales (e.g. Oisín, Rip Van Winkle analogues) describe travelers returning after centuries", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Abduction", "description": "Fairies are reported to take human infants (replaced with changelings), brides, midwives, and musicians", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Shapeshifting", "description": "Many fairy beings (e.g. selkies, kelpies) are explicitly shapeshifting", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Curses and gifts", "description": "Fairies are widely reported to bless or curse households depending on hospitality and respect", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "crepuscular",
+      "disposition": "variable",
+      "social_structure": "variable",
+      "habitat_preference": [
+        "fairy mounds (sídhe) and ancient barrows",
+        "hawthorn and rowan trees ('fairy trees')",
+        "stone circles and ringforts",
+        "wells and springs",
+        "wild meadows and forests",
+        "liminal seasonal sites at Samhain and Bealtaine"
+      ],
+      "diet": "Often described as drinking milk and dew, eating bread, oatmeal, or fairy fruit. Sharing fairy food with mortals is taboo and may bind the eater to the Otherworld.",
+      "patterns": [
+        "Most active at twilight and at the boundary festivals of Samhain and Bealtaine",
+        "Travel along fairy paths that must not be obstructed",
+        "Take offence at insult or trespass, reward respect and generosity",
+        "Seek out skilled human midwives, musicians, and craftsmen"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Fairy belief is centred in the Celtic-speaking regions of Ireland, Scotland, the Isle of Man, Wales, Cornwall, and Brittany, with extensive parallel traditions across Germanic and Scandinavian Europe and surviving Anglo-American folk belief in Newfoundland and Appalachia.",
+      "continents": ["Europe", "North America"],
+      "countries": ["Ireland", "United Kingdom", "Isle of Man", "France", "Iceland", "Norway", "Denmark", "Germany", "Canada", "United States"],
+      "regions": [
+        "Ireland",
+        "Highlands and Islands of Scotland",
+        "Wales",
+        "Cornwall",
+        "Isle of Man",
+        "Brittany",
+        "Iceland",
+        "Newfoundland",
+        "Appalachia"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Brú na Bóinne / Newgrange",
+        "location": {
+          "description": "Neolithic passage tomb complex in the Boyne valley, identified in tradition as a sídh and home of Aengus and the Dagda",
+          "country": "Ireland",
+          "region": "County Meath"
+        },
+        "peak_period": "pre-Christian to present",
+        "notes": "One of the most important sídhe in Irish mythology"
+      },
+      {
+        "name": "Knockma (Cnoc Meadha)",
+        "location": {
+          "description": "Hill identified in tradition as the seat of Finvarra, king of the Connacht fairies",
+          "country": "Ireland",
+          "region": "County Galway"
+        },
+        "peak_period": "medieval to modern",
+        "notes": "Traditional capital of the Connacht aos sí"
+      },
+      {
+        "name": "Fairy Glen, Isle of Skye",
+        "location": {
+          "description": "Geological landscape near Uig long associated in local tradition with the daoine sìth",
+          "country": "United Kingdom",
+          "region": "Scotland"
+        },
+        "peak_period": "modern folklore"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "0700-01-01",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Early medieval Irish ecclesiastical and mythological texts (e.g. 7th-c. Tírechán; 8th-c. Fiacc's Hymn) describe the aos sí"
+      },
+      "peak_activity_periods": [
+        { "period": "1100–1500", "description": "Medieval romance and Celtic mythological literature: Tam Lin, Thomas the Rhymer, Le Morte d'Arthur" },
+        { "period": "1590–1700", "description": "Renaissance and early-modern literary fairies: Spenser's Faerie Queene (1590); Shakespeare's A Midsummer Night's Dream (c. 1595); Robert Kirk's Secret Commonwealth (1691)" },
+        { "period": "1850–1920", "description": "Victorian and Edwardian fairy revival, Cottingley Fairies (1917)" }
+      ],
+      "seasonal_patterns": "Fairy activity is associated above all with the cross-quarter festivals of Samhain (1 November) and Bealtaine (1 May), the liminal hours of twilight, and the white nights around midsummer."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Fairy belief in the Celtic world is generally traced to pre-Christian Irish and British religion, particularly the Tuatha Dé Danann tradition recorded in the 11th-century Lebor Gabála Érenn. After Christianisation, the older deities were re-imagined as the aos sí, retreating beneath the land into the sídhe.",
+      "earliest_accounts": "Early medieval Irish ecclesiastical texts already discuss the sídhe as 'earthly gods'; Tírechán (7th c.) and Fiacc's Hymn (8th c.) reference pre-Christian veneration of these beings. Gervase of Tilbury's Otia Imperialia (c. 1211) is among the earliest detailed Latin accounts of English fairies.",
+      "folklore_connections": "Fairies belong to a wider Indo-European complex of 'hidden people' beings, including the Norse álfar, the Icelandic huldufólk, the Germanic elves, the Slavic vily, and the diwata of the Philippines."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "0700", "event": "7th-c. bishop Tírechán describes the aos sí as 'earthly gods'", "significance": "Earliest surviving Christian description of Irish fairies", "source": "Tírechán, in the Book of Armagh" },
+      { "date": "1211", "event": "Gervase of Tilbury includes English fairy lore in Otia Imperialia", "significance": "Foundational Latin documentation of British fairies", "source": "Otia Imperialia (c. 1211)" },
+      { "date": "1485", "event": "Morgan le Fay is named in Thomas Malory's Le Morte d'Arthur", "significance": "Major literary appearance of a fae figure in Arthurian legend", "source": "Le Morte d'Arthur (1485)" },
+      { "date": "1590", "event": "Edmund Spenser publishes books I–III of The Faerie Queene", "significance": "Establishes English literary fairyland", "source": "The Faerie Queene (1590)" },
+      { "date": "1597", "event": "King James VI publishes Daemonologie, treating fairies as illusory spirits", "significance": "Influential early-modern theological framing", "source": "Daemonologie (1597)" },
+      { "date": "1691", "event": "Reverend Robert Kirk completes The Secret Commonwealth of Elves, Fauns and Fairies", "significance": "Foundational ethnographic survey of Scottish fairy belief", "source": "Kirk, R. (1691, publ. 1815)" },
+      { "date": "1828", "event": "Thomas Crofton Croker publishes Fairy Legends and Traditions of the South of Ireland", "significance": "Key 19th-century collection of Irish fairy folklore", "source": "Croker, T. C. (1828)" },
+      { "date": "1888", "event": "W. B. Yeats edits Fairy and Folk Tales of the Irish Peasantry", "significance": "Brings Irish fairy tradition into the literary mainstream of the Celtic Revival", "source": "Yeats, W. B. (1888)" },
+      { "date": "1917-07", "event": "Frances Griffiths and Elsie Wright produce the first Cottingley Fairies photographs in Yorkshire", "significance": "Most famous fairy photo hoax; admitted as faked by the cousins in 1983", "source": "Cottingley Fairies; Doyle, A. C. (1922) The Coming of the Fairies" },
+      { "date": "1922", "event": "Arthur Conan Doyle publishes The Coming of the Fairies, defending the Cottingley photographs", "significance": "Pivotal moment in modern public engagement with fairy belief", "source": "Doyle, A. C. (1922)" },
+      { "date": "1976", "event": "Katharine Briggs publishes A Dictionary of Fairies", "significance": "Standard reference work on British fairy tradition", "source": "Briggs, K. (1976)" }
+    ],
+    "modern_era": "Contemporary engagement with fairy belief takes three main forms: serious folkloristic study (Briggs, Narváez, Wilby), surviving local belief (notably Iceland's huldufólk, Newfoundland 'fairy paths', and Irish hawthorn taboos that have stopped roads from being built into the 21st century), and commercial fairy imagery in children's literature, film, and tourism."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "0700", "latest": "2026" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "fairies-sighting-1691-aberfoyle",
+        "name": "Robert Kirk's Aberfoyle ministry",
+        "date": { "value": "1691-01-01", "precision": "approximate" },
+        "location": {
+          "description": "Aberfoyle, Stirling, in the Scottish Highlands",
+          "country": "United Kingdom",
+          "region": "Scotland"
+        },
+        "witnesses": { "count": 1, "types": ["Reverend Robert Kirk (Episcopal minister and Gaelic scholar)"], "credibility_factors": ["Educated cleric", "Detailed manuscript"] },
+        "description": "Robert Kirk, minister of Aberfoyle, completed his manuscript The Secret Commonwealth of Elves, Fauns and Fairies, drawing on Highland informants and his own observation of local fairy belief. He reportedly fell dead on the Doon Hill 'fairy hill' the following year; local tradition said he had been taken into the sídh.",
+        "credibility": { "rating": "unverified", "factors": ["Foundational ethnographic source", "First published 1815 by Walter Scott"] },
+        "sources": ["Kirk, R. (1691, publ. 1815), The Secret Commonwealth"],
+        "featured": true
+      },
+      {
+        "id": "fairies-sighting-1917-cottingley",
+        "name": "Cottingley Fairies photographs",
+        "date": { "value": "1917-07-01", "precision": "approximate" },
+        "location": {
+          "description": "Cottingley Beck, behind the Wright family home in Cottingley village near Bradford",
+          "country": "United Kingdom",
+          "region": "West Yorkshire, England"
+        },
+        "witnesses": { "count": 2, "types": ["Frances Griffiths (9)", "Elsie Wright (16)"], "credibility_factors": ["Five photographs", "Endorsement by Arthur Conan Doyle in The Strand Magazine, 1920"] },
+        "description": "Cousins Frances Griffiths and Elsie Wright produced five photographs purporting to show fairies at Cottingley Beck. The first two were taken in July 1917; further photographs followed in 1920. Arthur Conan Doyle defended the photographs publicly in 1920–1922.",
+        "evidence": ["Five glass-plate photographs", "Cottingley Beck site"],
+        "credibility": { "rating": "low", "factors": ["Cousins admitted in 1983 that four of the five photographs were faked using paper cut-outs of figures from Princess Mary's Gift Book", "Frances Griffiths maintained until her death that the fifth was genuine"], "notes": "The most famous fairy photo case; long debate, definitive admission of hoax in 1983." },
+        "sources": ["Doyle, A. C. (1922), The Coming of the Fairies", "Cooper, J. (1990), The Case of the Cottingley Fairies"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
-    "photographic": [],
+    "photographic": [
+      {
+        "id": "fairies-evidence-cottingley",
+        "type": "photograph",
+        "name": "Cottingley Fairies photographs",
+        "date": "1917-1920",
+        "description": "Five photographs taken by Frances Griffiths and Elsie Wright at Cottingley Beck, West Yorkshire, depicting alleged fairies and a gnome.",
+        "location": "Cottingley, West Yorkshire, England",
+        "status": "debunked",
+        "analysis": "In 1983 the cousins admitted that the figures were paper cut-outs based on illustrations from Princess Mary's Gift Book (1914). Griffiths continued to insist the fifth photograph was genuine.",
+        "source": "Cooper, J. (1990), The Case of the Cottingley Fairies"
+      }
+    ],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "fairies-evidence-secret-commonwealth",
+        "type": "manuscript",
+        "name": "The Secret Commonwealth of Elves, Fauns and Fairies",
+        "date": "1691",
+        "description": "Manuscript ethnographic account of Highland fairy belief by Reverend Robert Kirk of Aberfoyle.",
+        "status": "verified",
+        "analysis": "First-hand minister's account compiled from Highland informants; first published by Walter Scott in 1815.",
+        "source": "Kirk, R. (1691, publ. 1815)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Fairies as a separate sentient race",
+        "description": "Folk and esoteric tradition holds that the Fae are a real, autonomous race of intelligent beings inhabiting an Otherworld that interpenetrates the physical world.",
+        "proponents": ["Robert Kirk (1691)", "W. Y. Evans-Wentz (The Fairy-Faith in Celtic Countries, 1911)"],
+        "evidence_cited": ["Continuity of independent witness accounts across centuries", "Persistence of belief in modern Iceland and rural Ireland"]
+      },
+      {
+        "name": "Spirits of the dead",
+        "description": "Fairies represent ancestral spirits or the unbaptised dead, particularly those who died untimely or in childbirth.",
+        "proponents": ["Lewis Spence", "Diane Purkiss"],
+        "evidence_cited": ["Burial mounds (sídhe) as fairy dwellings", "Overlap of fairy traditions with All Souls' / Samhain rites"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Cultural memory of pre-existing peoples",
+        "description": "The Fae may preserve cultural memory of earlier or marginalised populations of the British Isles re-imagined as a hidden race.",
+        "proponents": ["David MacRitchie (The Testimony of Tradition, 1890)"],
+        "evidence_cited": ["Association of fairy mounds with Neolithic and Bronze Age burial sites"]
+      },
+      {
+        "name": "Folk explanation of medical and developmental conditions",
+        "description": "Changeling beliefs encoded folk explanations of conditions including failure to thrive, autism, and developmental disorders. The Bridget Cleary case (Ireland, 1895) is a tragic legal exemplar.",
+        "proponents": ["Susan Schoon Eberly", "Joyce Underwood Munro"],
+        "evidence_cited": ["1895 killing of Bridget Cleary, an adult woman accused of being a changeling, in Tipperary"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Cultural and literary construct",
+        "description": "Fairies are an evolving cultural construct shaped by medieval romance, early-modern literature, Victorian sentimentalism, and modern children's media.",
+        "proponents": ["Diane Purkiss", "Carole G. Silver"],
+        "evidence_cited": ["The shift from full-sized folkloric Fae to tiny winged Victorian fairies", "The Cottingley hoax of 1917"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Irish aos sí / sídhe traditions",
+        "Scottish Seelie and Unseelie Court tradition",
+        "Welsh Tylwyth Teg traditions",
+        "Manx fairy tradition (Themselves)",
+        "Newfoundland fairy traditions ('the good people')"
+      ],
+      "stories": [
+        "Tam Lin (Scottish ballad, child ballad 39)",
+        "Thomas the Rhymer (Scottish ballad, child ballad 37)",
+        "Oisín in Tír na nÓg",
+        "The fairy midwife motif",
+        "Bridget Cleary (1895) — folk-belief homicide case in Tipperary"
+      ],
+      "beliefs": "Across Ireland, Scotland and Wales, traditional belief insists that fairies are real, dangerous to offend, and best treated with euphemism, generosity, and respect. Hawthorn 'fairy trees' must not be cut, fairy paths must not be built across, and milk and bread are left out as offerings."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "The Faerie Queene — Edmund Spenser (1590)",
+        "A Midsummer Night's Dream — William Shakespeare (c. 1595)",
+        "The Secret Commonwealth — Robert Kirk (1691, publ. 1815)",
+        "Fairy Legends and Traditions of the South of Ireland — Thomas Crofton Croker (1828)",
+        "Fairy and Folk Tales of the Irish Peasantry — W. B. Yeats (1888)",
+        "Peter Pan — J. M. Barrie (1904/1911)",
+        "A Dictionary of Fairies — Katharine Briggs (1976)",
+        "At the Bottom of the Garden — Diane Purkiss (2000)"
+      ],
+      "film_tv": [
+        "Darby O'Gill and the Little People (1959)",
+        "The Secret of Kells (2009)",
+        "Fairy Tale: A True Story (1997, on Cottingley)",
+        "Song of the Sea (2014)"
+      ],
+      "games": [
+        "The Legend of Zelda series (fairies as healing spirits)",
+        "Dungeons & Dragons (Feywild and fey creature taxonomy)"
+      ],
+      "music": [
+        "Numerous Child ballads (Tam Lin, Thomas the Rhymer)",
+        "The Faerie Queene libretto tradition"
+      ],
+      "other": [
+        "Fairy doors and 'fairy gardens' tourism",
+        "Hawthorn-tree preservation in Irish road planning (e.g. the Latoon fairy bush, 1999)"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Reverend Robert Kirk", "affiliation": "Aberfoyle parish, Scotland", "contribution": "The Secret Commonwealth (1691); foundational Highland ethnography of fairy belief", "period": "1644–1692" },
+      { "name": "W. B. Yeats", "affiliation": "Irish Literary Revival", "contribution": "Compiled and popularised Irish fairy folklore", "period": "1888–1939" },
+      { "name": "W. Y. Evans-Wentz", "affiliation": "Independent / Stanford University", "contribution": "The Fairy-Faith in Celtic Countries (1911)", "period": "1907–1911" },
+      { "name": "Katharine Briggs", "affiliation": "Folklore Society (UK)", "contribution": "A Dictionary of Fairies (1976); standard reference on British fairies", "period": "1953–1980" },
+      { "name": "Diane Purkiss", "affiliation": "Keble College, Oxford", "contribution": "At the Bottom of the Garden (2000); cultural history of fairies and changelings", "period": "1990s–present" },
+      { "name": "Emma Wilby", "affiliation": "University of Exeter", "contribution": "Cunning Folk and Familiar Spirits (2005); academic work on fairy familiars in early-modern witch trials", "period": "2000s–present" }
+    ],
+    "organizations": [
+      { "name": "Folklore Society", "url": "https://folklore-society.com/", "focus": "British academic folklore studies, including fairy traditions" },
+      { "name": "Fairy Investigation Society", "focus": "Originally founded 1927; revived in 2013 as a forum for collecting modern fairy reports" }
+    ],
+    "ongoing_studies": "Active areas include the historical-ethnographic study of fairy belief in early-modern witch trials, surviving Icelandic huldufólk belief, modern fairy-encounter surveys (Simon Young's 2014–2017 census), and Celtic-revival reception studies."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "kirk-1691", "type": "book", "title": "The Secret Commonwealth of Elves, Fauns and Fairies", "authors": ["Robert Kirk"], "publication": "Manuscript 1691; first published Edinburgh, 1815", "date": "1691" },
+    { "id": "briggs-1976", "type": "book", "title": "A Dictionary of Fairies", "authors": ["Katharine Briggs"], "publication": "Allen Lane", "date": "1976", "isbn": "978-0140043532" },
+    { "id": "evans-wentz-1911", "type": "book", "title": "The Fairy-Faith in Celtic Countries", "authors": ["Walter Yeeling Evans-Wentz"], "publication": "Henry Frowde, Oxford University Press", "date": "1911" },
+    { "id": "purkiss-2000", "type": "book", "title": "At the Bottom of the Garden: A Dark History of Fairies, Hobgoblins, and Other Troublesome Things", "authors": ["Diane Purkiss"], "publication": "New York University Press", "date": "2000", "isbn": "978-0814766835" },
+    { "id": "yeats-1888", "type": "book", "title": "Fairy and Folk Tales of the Irish Peasantry", "authors": ["W. B. Yeats"], "publication": "Walter Scott", "date": "1888" },
+    { "id": "croker-1828", "type": "book", "title": "Fairy Legends and Traditions of the South of Ireland", "authors": ["Thomas Crofton Croker"], "publication": "John Murray", "date": "1828" },
+    { "id": "doyle-1922", "type": "book", "title": "The Coming of the Fairies", "authors": ["Arthur Conan Doyle"], "publication": "Hodder and Stoughton", "date": "1922" },
+    { "id": "cooper-1990", "type": "book", "title": "The Case of the Cottingley Fairies", "authors": ["Joe Cooper"], "publication": "Robert Hale", "date": "1990", "isbn": "978-0709041214" },
+    { "id": "wikipedia-fairy", "type": "website", "title": "Fairy", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Fairy", "accessed": "2026-05-07" },
+    { "id": "wikipedia-aos-si", "type": "website", "title": "Aos Sí", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Aos_S%C3%AD", "accessed": "2026-05-07" }
+  ]
 }
